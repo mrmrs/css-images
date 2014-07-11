@@ -1,12 +1,6 @@
 # CSS IMAGES
 
-  Mobile-first classes for css-images.
-  Set the desired css-images on any element for any breakpoint.
-  Base class names are namespaced across three breakpoints:
-
-*  -ns = not-small (covers everything larger than mobile)
-*  -m  = medium
-*  -l  = large
+  Mobile-first classes for responsive images.
 
 ## Install
 ```
