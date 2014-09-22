@@ -3,13 +3,18 @@
   Mobile-first classes for responsive images.
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-images
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-images)
+
 
 ## File Size
 
+43B images.css
+20B images.min.css
 
 ## The Code
 ```
