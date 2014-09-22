@@ -14,7 +14,8 @@ View on [npm](https://www.npmjs.org/package/css-images)
 ## File Size
 
 43B images.css
-20B images.min.css
+20B images.min.css 
+49B minified and gzipped
 
 ## The Code
 ```
