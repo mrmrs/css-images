@@ -77,5 +77,4 @@ img { max-width: 100%; }
 
 ## License
 
-MIT
-
+ISC
