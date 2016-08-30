@@ -1,7 +1,7 @@
 {
   "name": "css-images",
   "style": "images.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "http://github.com/mrmrs/css-images",
   "description": "Css module of single purpose classes for images",
   "keywords": [
