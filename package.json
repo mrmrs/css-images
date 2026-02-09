@@ -1,38 +1,44 @@
 {
   "name": "css-images",
-  "style": "images.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-images",
-  "description": "Css module of single purpose classes for images",
+  "version": "2.0.0",
+  "description": "Functional CSS for images",
+  "style": "dist/images.css",
+  "main": "dist/images.css",
+  "exports": {
+    ".": "./dist/images.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "images"
+    "images",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-images": {
+  "homepage": "https://github.com/mrmrs/css-images",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-images.git"
+    "url": "https://github.com/mrmrs/css-images.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-images/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-images/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
